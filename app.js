@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+angular.module("myApp",[]).controller("LocaleController",function($scope){
+	$scope.countries =[];
+	$scope.countries = [{locale:'en-US',name:'United States'},{locale:'en-GB',name:'United Kingdom'},
+	                      {locale:'en-FR',name:"France"},{locale:'en-AM',name: 'Ethiopia'}
+	                      ];
+
+});
